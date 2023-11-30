@@ -276,12 +276,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 180px 60px 180px;
+    padding: 0px 280px 60px 280px;
 }
 
 .career-box{
-    width: 16%;
-    height: 250px;
+    width: 15%;
+    height: 100px;
     border: 2px red solid;
     border-radius: 10px;
     display: flex;
@@ -289,7 +289,7 @@
     padding: 12px 10px;
     transition:
     width 1s,
-    height 1s,
+    height 1s;
 }
 .career-box:hover{
     transition: 0.5s;
@@ -315,7 +315,7 @@
 }
 
 /************************  ***************************/
-.Featured-roles{
+/* .Featured-roles{
     font-family: D Din;
     background-color: black;
     color: #fff;
@@ -373,7 +373,6 @@
 }
 .container-1 p{
     font-size: 17px;
-    /* color: #fff; */
     flex-direction: column;
     font-weight: 300;
     font-family: 'D-DIN Exp', sans-serif;
@@ -390,7 +389,7 @@
     width: 60%;
     border-left: 2px solid red;
     padding-left: 10px;
-}
+} */
 /* .lower-right-des{
     width: 40%;
 }
@@ -402,13 +401,17 @@
 
 /* ====================== G ====================== */
 
-.padd-50{
-    
+.Featured-roles{
+    font-family: D Din;
+    background-color: black;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    padding: 50px 0px 70px 0px;    
 }
 
 .job-box{
     width: 100%;
-    /* padding: 0px 150px; */
     display: flex;
     justify-content: center;
     margin: 25px 0px;
@@ -416,7 +419,7 @@
 .container-box{
     width: 70%;
     background-color: white;
-    padding:15px 0px 15px 0px;
+    padding: 15px 0px 15px 0px;
     border-radius: 15px;
     box-shadow: 10px 5px 5px rgb(255, 0, 0);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -432,7 +435,6 @@
 .span-des{
     font-size: 18px;
     font-family: d-din;
-    /* margin: 0px 5px; */
     padding-left: 30px;
 }
 
@@ -451,7 +453,6 @@
     font-size: 16px;
     padding-left: px;
     font-family: D-DIN;
-    /* font-family: 'D-DIN Exp', sans-serif; */
     padding-left: 10px;
 }
 
@@ -459,9 +460,169 @@
     font-size: 18px;
     padding-left: 50px;
 }
-body{
-    /* background-color: white !important; */
+
+/* mediaquery started asr */
+@media only screen and (max-width:1280px){
+    .new-banner{
+        margin-bottom: 40px;
+    }
+    .career-outer-box{
+        padding: 0px 100px 60px 100px;
+    }
+    .career-box{
+        width: 17%;
+    }
+    .banner-text{
+        margin-bottom: 40px;
+    }
+    .banner-text p {
+        width: 71%;
+    }
+    .career-card-text p {
+        font-size: 23px;
+    }
 }
-.job-box{
-    /* background-color: white; */
+
+@media only screen and (max-width:1024px){
+    .career-box {
+        width: 18%;
+        /* height: 200px; */
+        padding: 8px 8px;
+    }
+    .career-card-text p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .new-banner{
+        height: 50vh;
+        margin-bottom: 0px;
+    }
+    .container-box{
+        width: 85%;
+    }
+    .career-outer-box{
+        padding: 0px 40px 40px 40px;
+    }
+    .container-box h4{
+        padding-left: 30px;
+    }
+    .container-box ul{
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .career-box{
+        width: 20%;
+        height: 70px;
+        padding: 0;
+    }
+    .career-card-text p {
+        font-size: 15px;
+    }
+    .container-box h3{
+        padding-left: 20px;
+    }
+    .span-des{
+        padding-left: 15px;
+        display: block;
+    }
+    .container-box h3{
+        font-size: 22px;
+    }
+    .container-box h4{
+        padding-left: 20px;
+    }
+    .container-box ul{
+        padding-left: 60px;
+    }
+    .p-lower{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .new-banner{
+        height: 25vh;
+    }
+    .header{
+        padding: 10px 0px;
+    }
+    .career-outer-box{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 50px 0px 50px;
+    }
+    .career-box{
+        width: 35%;
+        margin: 15px;
+        height: 50px;
+    }
+    .Featured-roles{
+        padding: 20px 0px;
+    }
+    .container-box h3{
+        font-size: 25px;
+        margin: 5px 0;
+        padding-left: 15px;
+    }
+    .container-box h4{
+        padding-left: 15px;
+    }
+    .span-des {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .container-box ul{
+        padding-left: 40px;
+        padding-right: 10px;
+
+    }
+    .container-box ul li {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .career-box{
+        height: 70px;
+    }    
+    .span-des{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .header h1{
+        font-size: 30px;
+    }
+    .career-outer-box{
+        padding: 0 10px;
+    }
+    .span-des{
+        font-size: 10px;
+    }
+    .container-box h3 {
+        padding-left: 4px;
+    }
+    .span-des{
+        padding-left: 4px;
+    }
+    .container-box h4 {
+        font-size: 20px;
+        padding-left: 4px;
+    }
+    .container-box ul{
+        padding-left: 20px;
+    }
+    .container-box ul li{
+        font-size: 13px;
+    }
+    .p-lower{
+        padding-left: 4px;
+        font-size: 14px;
+    }
+
 }
