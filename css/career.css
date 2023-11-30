@@ -398,3 +398,49 @@
 .lower-right-des img{
     width: inherit;
 } */
+
+
+/* ====================== G ====================== */
+
+.job-box{
+    width: 100%;
+    /* padding: 0px 150px; */
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+.container-box{
+    width: 70%;
+    background-color: white;
+    padding:15px 0px 15px 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(255, 0, 0);
+    box-shadow: rgba(247, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.container-box h3{
+    font-size: 45px;
+    color: #000000;
+}
+.span-des{
+    font-size: 18px;
+    font-family: D DIN;
+    margin: 0px 5px;
+}
+
+.container-box h4{
+    font-size: 34px;
+}
+
+.container-box ol{
+    padding-left: 60px;
+}
+.container-box ol li{
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.p-lower{
+    font-size: 25px;
+}
