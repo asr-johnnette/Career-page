@@ -534,9 +534,13 @@
     }
     .container-box h3 {
         padding-left: 4px;
+        font-size: 20px;
     }
     .span-des{
         padding-left: 4px;
+    }
+    .span-des img{
+        width: 16px;
     }
     .container-box h4 {
         font-size: 20px;
