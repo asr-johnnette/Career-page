@@ -3,8 +3,11 @@
 .new-banner{
     width: 100%;
     height: 100vh;
-    background-image: url("img/career/new-banner.jpg");
+    background-image: url("/img/career/banner1.jpg");
     margin-bottom: 0px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 .career-page-box
 {
